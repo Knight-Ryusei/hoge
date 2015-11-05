@@ -1,0 +1,24 @@
+
+a,op,b=STDIN.gets.split.map
+loop{
+  case op
+
+  when '+'
+    y=a+b
+    puts y
+    
+  when '-'
+    y=a-b
+    puts y
+    
+  when '*'
+    y=a*b
+    puts y
+    
+  when '/'
+    y=a/b
+    puts y
+  when '?'
+    break
+  end
+  }
